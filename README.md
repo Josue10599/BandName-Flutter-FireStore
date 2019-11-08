@@ -1,6 +1,9 @@
-# flutter_band_name
+# Flutter - Votação de Nomes de Banda
 
 Aplicação para realizar votação de nomes, seguindo o tutorial de implementação do Firebase
+
+- <a href="https://codelabs.developers.google.com/codelabs/flutter-firebase/index.html?index=..%2F..index#11">
+    Codelabs</a>
 
 ## Getting Started
 

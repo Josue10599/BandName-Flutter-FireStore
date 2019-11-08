@@ -17,6 +17,6 @@ class Record {
   @override
   String toString() => 'Record<$name:$votes>';
 
-  increment() => reference.updateData({'vote': votes + 1});
-  decrement() => reference.updateData({'vote': votes - 1});
+  increment() => reference.updateData({'vote': FieldValue.increment(1)});
+  decrement() => reference.updateData({'vote': FieldValue.increment(-1)});
 }
